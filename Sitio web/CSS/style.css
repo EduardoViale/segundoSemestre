@@ -1,0 +1,186 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     font-size: 30px;
+
+     list-style: none;
+     padding: 0;
+}
+
+body {
+     background-color: white;
+     color: black;
+     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+.navbar {
+     background-color: white;
+     color: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+}
+
+.navbar-logo img {
+     max-width: 120px;
+}
+
+.navbar-links {
+     display: flex;
+}
+
+.navbar-links li {
+     margin-right: 20px;
+     background-color: rgb(224, 155, 5);
+
+     border: 2px solid black;
+     border-radius: 40px;
+
+}
+
+.navbar-links li a {
+     color: rgb(0, 0, 0);
+
+
+}
+
+.hero {
+     background-image: url('../img/cesped.jpg');
+     background-position: center;
+     text-align: center;
+     padding: 200px
+}
+
+.hero-content {
+     max-width: 600px;
+     margin: 0 auto;
+}
+
+.hero h1 {
+     font-size: 50px;
+     margin-bottom: 10px;
+}
+
+.hero p {
+     font-size: 20px;
+     margin-bottom: 30px;
+}
+
+.btn {
+     padding: 5px;
+     background-color: #fdad00;
+     color: #000000;
+
+     border-radius: 10px;
+
+     border: 3px solid rgb(3, 0, 0);
+}
+
+.btn:hover {
+     color: black;
+     border: 1px solid black;
+}
+
+
+section {
+     padding: 50px 20px;
+}
+
+section h2 {
+     font-size: 30px;
+     color: rgba(255, 0, 0, 0.767);
+     margin-bottom: 20px;
+}
+
+section p {
+     font-size: 15px;
+     line-height: 1.6;
+}
+
+.historico {
+
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+}
+
+.historico-texto {
+     flex: 1;
+     padding-right: 20px;
+}
+
+.historico-texto h2 {
+     font-size: 30px;
+
+
+}
+
+.historico-texto p {
+     font-size: 15px;
+     line-height: 1.7;
+     margin-bottom: 20px;
+}
+
+.historico-imagen {
+     flex: 1;
+}
+
+.historico-imagen img {
+     max-width: 50%;
+     height: auto;
+     border-radius: 50px;
+
+}
+
+.mision-vision {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+     gap: 150px;
+}
+
+.mision-vision .txt {
+     flex: 1;
+     padding-right: 50px;
+     color: red;
+}
+
+.mision-vision h3 {
+     border: 30px;
+     margin-top: 20px;
+     color: blue;
+
+}
+
+.mision-vision p {
+
+     color: black;
+     line-height: 1.6;
+     margin-bottom: 50px;
+
+}
+
+.datos {
+
+     margin-top: 20px;
+}
+
+.datos .btn {
+     color: rgb(255, 174, 0);
+     background: none;
+}
+
+
+
+footer {
+     color: rgb(0, 0, 0);
+
+}
